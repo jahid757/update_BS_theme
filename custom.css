@@ -1,0 +1,47 @@
+
+a{text-decoration: none;}
+.card-content{
+    background-color:#fffbdf
+}
+.price{
+    font-size: 23px;
+    font-weight: bold;
+}
+.small {
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #8993A4;
+    display: block;
+    text-align: left;
+}
+.small-btn button{
+    border:none;
+    outline:none;
+    font-size: 13px;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.small-btn button:first-child{
+    background:#F5E7F6;
+}
+.icon i{
+    color:rgb(71, 71, 71);
+    margin-right: 5px;
+}
+.card-footer{
+    background-color:#fff;
+}
+@media (min-width: 768px){
+    .custome-card img{
+        width: 20%;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 1000px){
+    .row-basis{
+        display: block !important;
+    }
+}
