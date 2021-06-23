@@ -89,3 +89,10 @@ a{text-decoration: none;}
 .hover:hover{
     border-bottom:2px solid #007bff;
 }
+
+.fw-bold{
+    font-weight: 600;
+}
+p{
+    margin-bottom: 0;
+}
